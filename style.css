@@ -1,0 +1,171 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+input {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background: transparent;
+    border: black;
+    color: white;
+}
+header a {
+    color: white;
+    margin: 4px;
+    text-decoration: none;
+}
+header img {
+    padding-left: 200px;
+}
+.login {
+    margin-left: 300px;
+    font-size: 18px;
+}
+.link-inicio {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid rgba(65, 64, 64, 0.712);
+    border-bottom: none;
+    padding: 15px;
+}
+.link-inicio a {
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.link-inicio a:hover{
+    text-decoration: underline;
+    
+}
+.baner img {
+    width: 100%;
+}
+main {
+    text-align: center;
+    margin: 30px;
+}
+main h1 {
+    font-size: 2.8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main button {
+    margin: 20px; 
+    padding: 5px;
+    border: none;
+    text-decoration: overline;
+    color: rgba(67, 66, 66, 0.756);
+    font-size: 1.09em;
+    background-color: white;
+}
+main button:hover {
+    background-color: rgba(188, 178, 178, 0.553);
+    border-radius: 10px;
+}
+.sobre {
+    display: flex;
+}
+.sobre img {
+    padding: 60px;
+    width: 40%;
+}
+.texto {
+    margin: auto;
+    text-align: center;
+}
+.texto h2 {
+    padding-bottom: 25px;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.395);
+}
+.texto p {
+    font-size: 1.5em;
+}
+.global {
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+}
+.atendimento {
+    padding: 50px 40px;
+    font-size: 1.3em;
+}
+.atendimento h4 {
+    padding-bottom: 20px;
+    font-size: 1.1em;
+}
+.atendimento h2 {
+    padding-bottom: 20px;
+    font-size: 1.4em;
+}
+.atendimento p {
+    padding-bottom: 10px;
+
+}
+.atendimento .aprendiz {
+    padding-top: 40px;
+}
+.institucional {
+    padding: 50px 40px;
+    font-size: 1.5em;
+}
+.institucional h4 {
+    padding-bottom: 20px;
+}
+.institucional ul {
+    list-style: none;
+}
+.institucional li {
+    padding-bottom: 15px;
+}
+.institucional a {
+    color: rgba(255, 255, 255, 0.548);
+    text-decoration: none;
+}
+.politica {
+    padding: 50px 40px ;
+    font-size: 1.5em;
+}
+.politica h4 {
+    padding-bottom: 20px;
+}
+.politica ul {
+    list-style: none;
+}
+.politica li {
+    padding-bottom: 15px;
+}
+.politica a {
+    color:  rgba(255, 255, 255, 0.646);
+    text-decoration: none;
+}
+.infor-legais {
+    padding: 50px 40px;
+    font-size: 1.5em;
+}
+.infor-legais h4 {
+    padding-bottom: 60px ;
+}
+.infor-legais p {
+    padding-bottom: 25px;
+}
+.adiquirir {
+    padding: 15px;
+    text-align: center;
+    font-size: 1.1em;
+}
+.adiquirir a {
+    font-size: 1.2em;
+    color: black;
+}
